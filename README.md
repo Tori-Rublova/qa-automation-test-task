@@ -1,2 +1,58 @@
-This is a test task for Automation QA Engineer
+# QA Automation Engineer — Take-Home Assessment
 
+## Overview
+
+This is a Playwright + TypeScript test framework for a web application. It has intentional bugs and gaps.
+
+The app under test: `http://manualqatestapp-env.eba-m5fbuh33.us-east-1.elasticbeanstalk.com`
+
+---
+
+## Setup
+
+**Prerequisites:** Node.js `>=20.x`
+
+```bash
+npm install
+npx playwright install chromium
+```
+
+---
+
+## Running Tests
+
+```bash
+npx playwright test
+
+# Headed mode
+npx playwright test --headed
+
+# Single file
+npx playwright test tests/profile.spec.ts
+
+# UI mode
+npx playwright test --ui
+```
+---
+
+## Your Task
+
+### Part 1 — Fix the bugs
+
+There are a number of issues in the existing code - from questionable architecture decisions to overengineering and error swallowing. Find as much as you could and add comment why it was changed.
+
+### Part 2 — Write profile page tests
+
+`tests/profile.spec.ts` is empty. Add **3–5 tests** for the profile page.
+
+Requirements:
+- All tests should pass;
+- Cover regression-critical flows;
+- Use existing code when possible;
+---
+
+## Submission
+
+Fork or clone this repo to your personal GitHub (public visibility) and send us the link.
+
+> Do not open a PR against this repo. Do not send a zip file.
