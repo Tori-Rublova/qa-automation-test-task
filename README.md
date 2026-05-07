@@ -1,4 +1,4 @@
-# QA Automation Engineer — Take-Home Assessment
+# Test task for QA Automation Engineer 
 
 ## Overview
 
@@ -29,21 +29,18 @@ npx playwright test --headed
 
 # Single file
 npx playwright test tests/profile.spec.ts
-
-# UI mode
-npx playwright test --ui
 ```
 ---
 
 ## Your Task
 
-### Part 1 — Fix the bugs
+### Part 1 - Fix the bugs
 
-There are a number of issues in the existing code - from questionable architecture decisions to overengineering and error swallowing. Find as much as you could and add comment why it was changed.
+There are a number of issues in the existing code. Find and fix as much as you could and add comment why it was changed.
 
-### Part 2 — Write profile page tests
+### Part 2 - Write profile page tests
 
-`tests/profile.spec.ts` is empty. Add **3–5 tests** for the profile page.
+Add **3–5 tests** for the profile page to `tests/profile.spec.ts`
 
 Requirements:
 - All tests should pass;
